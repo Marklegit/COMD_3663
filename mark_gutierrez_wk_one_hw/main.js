@@ -25,7 +25,7 @@ const roundNums = () => {
     let num8 = document.getElementById("num8").value;
     let round = parseInt(num7) / parseInt(num8);
 	const divideFixed = round.toFixed(2);
-	document.getElementById("round_result").innerHTML = round;
+	document.getElementById("round_result").innerHTML = divideFixed;
 };
 //Subtract
 const subNums = () => {
