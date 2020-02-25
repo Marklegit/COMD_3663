@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	font-size: 14px;
+}
+body{
+	font-size: 1.2rem;
+}
+h1{
+	text-align: center;
+}
+p{
+	text-align: center;
+	font-size: 2.2rem;
+	padding-bottom: 10px;
+}
+button{
+	font-size: 1.6rem;
+	cursor: pointer;
+	padding: 10px;
+	margin: 0px 10px;
+	width: 200px;
+}
+.main_content{
+	width: 100%;
+}
+.shape{
+	/*
+	height: 200px;
+	width: 200px;
+	background-color: gold;
+	margin: 10px auto 20px;
+	border-radius: 50%;
+	*/
+	
+}
+.center_btn{
+	width: 445px;
+	margin: auto;
+}
