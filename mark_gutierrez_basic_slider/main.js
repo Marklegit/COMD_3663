@@ -7,7 +7,7 @@ function addSlideDivs(n) {
 
 function showSlideDivs(n) {
 	let i;
-	let slides = document.getElementsByClassName("slide");
+	let slides = document.querySelectorAll(".slide");
 	if (n > slides.length){
 		slideIndex = 1;
 	}
