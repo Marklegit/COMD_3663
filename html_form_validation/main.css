@@ -1,0 +1,65 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+html{
+	font-size: 14px;
+}
+body{
+	font-size: 1rem;
+}
+.site-content{
+	width: 100%;
+}
+.wrapper{
+	width: 50%;
+	margin: auto;
+	/*padding: 4px;
+	background-color: orange;
+	*/
+}
+.author{
+	font-size: 2rem;
+}
+#heading{
+	margin: 10px 0px 0px 0px;
+	background-color: black;
+	color: white;
+	padding: 0px 0px 0px 10px;
+}
+.message_submit{
+	height: 300px;
+	background-color: whitesmoke;
+}
+form{
+	background-color: whitesmoke;
+	height: 300px;
+}
+form:valid{
+	background-color: rgb(3, 252, 102, 1);
+}
+input{
+	margin: 10px 10px 10px 0px;
+	font-size: 1.2rem;
+	width: 70%;
+}
+input:invalid {
+	color: red;
+}
+input:valid {
+	color: green;
+}
+button{
+	display: block;
+	padding: 10px;
+	font-size: 1rem;
+	cursor: pointer;
+	border: 1px solid darkblue;
+}
+button:hover{
+	background-color: darkblue;
+	transition: .6s ease-in-out;
+	color: white;
+	border: 1px solid darkblue;
+}
