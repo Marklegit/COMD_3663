@@ -1,0 +1,55 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+html{
+	font-size: 14px;
+}
+body{
+	font-size: 1rem;
+}
+.main_content{
+	width: 50%;
+	margin: auto;
+}
+h1{
+	font-size: 2.2rem;
+	margin: 0px 0px 10px 0px;
+}
+.heading_submit{
+	text-align: center;
+}
+input{
+	font-size: 1.4rem;
+	width: 100%;
+	margin: 0px 0px 20px 0px;
+}
+input:valid{
+	color: dodgerblue;
+}
+input:invalid{
+	color: red;
+}
+input[type]:valid{
+	border-top: 16px solid lightblue;
+}
+input[type]:invalid{
+	border-top: 16px solid red;
+}
+button{
+	padding: 10px;
+	font-size: 1.4rem;
+	background-color: lightslategray;
+	color: white;
+}
+button:hover{
+	cursor: pointer;
+	color: white;
+	background-color: mediumseagreen;
+	transition: .3s ease-in-out;
+}
+p{
+	font-size: 3rem;
+	text-align: center;
+}

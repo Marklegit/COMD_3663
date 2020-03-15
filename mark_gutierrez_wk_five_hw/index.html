@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+	<meta name="Author" content="Forms validation JavaScript"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<div class="main_content">
+	<h1>Testing input</h1>
+	<form action="submit.html" id="userForm">
+		<input type="text" name="username" placeholder="username" pattern="[a-z?A-Z_-]{4,10}[0-9]{1,4}" title="Invalid username! You need a minimum of 4 characters and at least one number. No more than 10 characters or 4 numbers." required>
+		<!-- [a-zA-Z0-9-_]{4,12} -->
+			
+		<input type="email" name="mail" placeholder="email" pattern="[a-z?A-Z0-9._-]+[@]+\w+\.?(com|net)" title="Your email must have @ and a valid . extension." required>
+			
+		<input type="password" name="password" placeholder="password" pattern="^[a-zA-Z\S]{8,12}\d+" title="Minimum 8 characters and a number" required>
+			
+		<button type="submit" form="userForm" id="btn">Submit</button>
+		
+	</form>
+</div>
+
+
+</body>
+</html>
