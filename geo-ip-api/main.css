@@ -1,0 +1,50 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+html{
+	font-size: 14px;
+}
+body{
+	font-size: 1rem;
+	background-color: floralwhite;
+}
+.main_content{
+	width: 100%;
+}
+.button_container{
+	width: 310px;
+	margin: auto;
+	background-color: gold
+}
+button{
+	font-size: 1.4rem;
+	padding: 10px;
+	margin: 10px 6px 10px;
+}
+button:hover{
+	cursor: pointer;
+	color: white;
+	background-color: black;
+	transition: .4s ease-in-out;
+}
+.api_content{
+	width: 300px;
+	margin: auto;
+}
+.api_content p{
+	font-size: 1.4rem;
+}
+.api_content a{
+	font-size: 1.4rem;
+	color: cadetblue;
+}
+.api_content a:hover{
+	color: lightseagreen;
+}
+ul{
+	list-style: none;
+	font-size: 1.4rem;
+	
+}
